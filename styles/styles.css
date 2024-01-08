@@ -1,21 +1,6 @@
+/* Our App */
 body {
     font-family: 'Montserrat', sans-serif; 
-}
-
-.about-me-section {
-}
-
-.sidebar-section {
-    background-color: #DFEEFF;
-    padding-left: 40px;
-}
-
-.sidebar-section img {
-    margin-left: -40px;    
-}
-
-.right-side-container {
-    padding-left: 88px;
 }
 
 .app-wrapper {
@@ -23,4 +8,189 @@ body {
     flex-direction: row-reverse;
     width: 1200px;
     margin: 40px auto;
+}
+
+/* Sidebar Styles*/
+.sidebar-section {
+    background-color: #DFEEFF;
+}
+
+.sidebar-image {
+    margin-top: 40px;  
+}
+
+.contacts-container {
+    padding-left: 40px;
+}
+
+.contacts-header {
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contacts-item {
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.contacts-phone {
+    color: #4489FF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.contacts-email { 
+    color: #4489FF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contacts-linkedin {
+    color: #4489FF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;    
+}
+
+.contacts-elements {
+    margin-top: -12px;
+}
+
+.personal-details {
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.personal-details-header {
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pd-elements {
+    margin-top: -12px;
+
+}
+
+.pd-item {
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: -12px; 
+}
+
+.pd-item2 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.top-skills-section {
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.top-skills-header {
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top-skills-list {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.tech-skills-section {
+    padding-left: 40px;
+    margin-top: 40px;    
+}
+
+.tech-skills-header {
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+
+.tech-skills-list {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -10px;
+    margin-left: -10px;   
+}
+
+.soft-skills-section {
+    padding-left: 40px;
+    margin-top: 40px;      
+}
+
+.soft-skills-header {
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;       
+}
+
+.soft-skills-list {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -10px;
+    margin-left: -10px;       
+}
+
+.hobbies-section {
+    padding-left: 40px;
+    margin-top: 40px;       
+}
+
+.hobbies-header {
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;       
+}
+
+.hobbies-list {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -10px;
+    margin-left: -10px;    
+}
+
+/* Main content Styles */
+.right-side-container {
+    padding-left: 88px;
 }
